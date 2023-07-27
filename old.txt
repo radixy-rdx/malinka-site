@@ -1,0 +1,11 @@
+Галерея
+	<div class="main_block_g">
+			<div class="element_1">
+				<a href="assets/pic/photo.webp">
+					<img src="assets/pic/photo.webp" alt="">
+				</a>
+			</div>
+
+jQuery(document).ready(($)=>{
+	$('.element_1').lightGallery();
+});
